@@ -62,3 +62,16 @@ let cetakNama = (...karakter) => {
   };
   
   cetakNama("AB", "BC", "CD");
+
+function hitungBanyakAngka(...angka) {
+  let result = 0;
+  console.log(angka);
+  console.log(angka instanceof array);
+
+  for (let x of angka) {
+    console.log(x)
+    result += x;
+  };
+    
+};
+hitungBanyakAngka(1, 2, 3, 4,)
